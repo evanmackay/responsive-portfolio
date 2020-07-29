@@ -12,7 +12,7 @@ This is the home page for my Portfolio. It has an about me section to give peopl
 ## Contact Page
 This is the contact page that can be reached in the link in the menu-bar. On this page, people will eventually be able to send an email to me if they would like to get into contact with me about employment opportunities or anything else they would like to talk to me about.
 
-![screenshot-of-contact-page]https://github.com/evanmackay/responsive-portfolio/blob/master/Assets/contact-page-resonsive-portfolio.png?raw=true)
+![screenshot-of-contact-page](https://github.com/evanmackay/responsive-portfolio/blob/master/Assets/contact-page-resonsive-portfolio.png?raw=true)
 
 ## Portfolio Page
 This is the page that will display the work I have completed. Eventually, I will have more to show here, but until then it will only display the first code I have worked on.
