@@ -1,0 +1,72 @@
+<!--navbar-->
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="/index">Evan Mackay</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/index">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/contact" target="()">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Social Media
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://twitter.com/evan_mackay" target="()">Twitter</a>
+                        <a class="dropdown-item" href="https://github.com/evanmackay" target="()">Github</a>
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/evan-mackay-a20792a0/" target="()">Linkedin</a>
+
+                        
+                      </div>
+                      
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/portfolio" tabindex="-1" aria-disabled="true" target="()">Portfolio</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </div>
+    <!--email contact me section (cannot be used because of missing javascript)-->
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-8 col-lg-8 col-sm-8">
+              <div class="jumbotron text-info my-5 shadow p-3 mb-5 bg-white rounded">
+                  <h1 class="display-4">Contact</h1>
+                  {{msg}}
+                  <hr>
+                  <form method="POST" action="/send">
+                      <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input name="name" type="text"  class="form-control" id="formGroupExampleInput" placeholder="Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="formGroupExampleInput2">Email</label>
+                        <input name="email" type="email"  class="form-control" id="formGroupExampleInput2" placeholder="Email">
+                      </div>
+                        <div class="input-group-text">
+                            <label class="mr-3" for="formGroupExampleInput">Message</label>
+                            <input name="message" type="text"  class="form-control" id="formGroupExampleInput" placeholder="Message">
+                        </div>
+                      <div class="form-group">
+                      <button class="btn btn-info mt-3" type="submit">Submit</button>
+                    </form>
+                    <hr>
+                    <p>Email: evanmackay71@yahoo.com</p>
+                    
+                    <p>Phone: (714)-356-7610</p>
+                </div>
+          </div>
+
+      </div>
+
+  </div>
