@@ -3,6 +3,10 @@ const router = express.Router();
 const nodemailer = require("nodemailer");
 require("dotenv").config();
 
+router.get("/", (req, res) => {
+    res.render("index");
+});
+
 router.get("/index", (req, res) => {
     res.render("index");
 });
